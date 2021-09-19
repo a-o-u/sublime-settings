@@ -36,10 +36,14 @@
 	"hardware_acceleration": true,
 	"show_project_first": true,
 	"preview_on_click": "only_left",
-	"vintage_start_in_command_mode": true,
 	"relative_line_numbers": true,
 	"ignored_packages":
 	[
+		"Six",
+		"Vintage",
 	],
 	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+	"neovintageous_build_version": 11100,
+	"vintageous_use_ctrl_keys": true,
+	"vintageous_terminal": "cmd",
 }

@@ -1,4 +1,5 @@
 {
+	"install_prereleases": ["NeoVintageous"],
 	"bootstrapped": true,
 	"in_process_packages":
 	[
@@ -7,6 +8,7 @@
 	[
 		"A File Icon",
 		"Color Highlighter",
+		"NeoVintageous",
 		"Package Control",
 		"SideBarEnhancements",
 		"Theme - Spacegray",
