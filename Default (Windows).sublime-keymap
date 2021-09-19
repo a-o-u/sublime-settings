@@ -1,5 +1,21 @@
 [
+  /* ------ Toggle Vim ------ */
   { "keys": ["ctrl+space"], "command": "toggle_vim"},
+
+  /* ------ Sublime Text ------ */
+  // Cycle Tab
   { "keys": ["ctrl+tab"], "command": "next_view"},
   { "keys": ["ctrl+shift+tab"], "command": "prev_view"},
+
+  /* ------ Origami ------ */
+  // Travel to Pane
+  { "keys": ["ctrl+k", "k"], "command": "travel_to_pane", "args": {"direction": "up"} },
+  { "keys": ["ctrl+k", "l"], "command": "travel_to_pane", "args": {"direction": "right"} },
+  { "keys": ["ctrl+k", "j"], "command": "travel_to_pane", "args": {"direction": "down"} },
+  { "keys": ["ctrl+k", "h"], "command": "travel_to_pane", "args": {"direction": "left"} },
+  // Destroy Current Pane
+  { "keys": ["ctrl+k", "q"], "command": "destroy_pane", "args": {"direction": "self"} },
+  // Resize Pane
+  { "keys": ["ctrl+k", "ctrl+c"], "command": "resize_pane", "args": {"orientation": "cols"} },
+  { "keys": ["ctrl+k", "ctrl+r"], "command": "resize_pane", "args": {"orientation": "rows"} }
 ]
