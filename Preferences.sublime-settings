@@ -41,9 +41,11 @@
 	[
 		"Six",
 		"Vintage",
+		"Vintageous",
 	],
 	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
 	"neovintageous_build_version": 11100,
 	"vintageous_use_ctrl_keys": true,
 	"vintageous_terminal": "cmd",
+	"vintageous_reset_mode_when_switching_tabs": false,
 }
