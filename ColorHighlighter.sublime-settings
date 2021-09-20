@@ -1,5 +1,5 @@
 {
-  "file_extensions": [".tmTheme"],
+  "file_extensions": [".tmTheme", "sass"],
   "search_colors_in":
   {
 		"all_content":
@@ -18,9 +18,9 @@
 				},
 				"phantoms":
 				{
-					"enabled": false,
+					"enabled": true,
 					"length": 2,
-					"style": "right",
+					"style": "inline",
 				},
 			},
 			"enabled": true,
